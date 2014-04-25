@@ -1,2 +1,4 @@
-echo $_POST['title'];
-echo $_POST['text'];
+<?php
+  echo $_POST['title'];
+  echo $_POST['text'];
+?>

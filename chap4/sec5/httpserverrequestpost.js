@@ -14,6 +14,7 @@ http.createServer(function(req, res) {
   req.on('end', function() {
     post = querystring.parse(post);
     res.end(util.inspect(post));
+    console.log(util.inspect(post));
   });
 
 }).listen(3000);
